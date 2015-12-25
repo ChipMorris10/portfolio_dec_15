@@ -1,4 +1,63 @@
-.nav ul {
-  display: inline;
+ul.nav {
   border: solid thin red;
 }
+
+li {
+  display: inline;
+}
+
+.mainView {
+  border: solid thin yellow;
+}
+
+aside.socialMediaLogos {
+  border: solid thin green;
+}
+
+.bio {
+  border: solid thin blue;
+}
+
+.portfolio {
+  border: solid thin pink;
+}
+
+.skills {
+  border: solid thin black;
+}
+
+.blog {
+  border: solid thin magenta;
+}
+
+.contact {
+  border: solid thin purple;
+}
+
+footer {
+  border: solid thin orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
