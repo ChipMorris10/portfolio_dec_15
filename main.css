@@ -10,7 +10,7 @@ li {
   /* I should consider if I want this to be a circle or square */
   width: 100px;
   height: 100px;
-  background: black;
+  background: green;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
