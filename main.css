@@ -6,6 +6,37 @@ li {
   display: inline;
 }
 
+#circle {
+  /* I should consider if I want this to be a circle or square */
+  width: 100px;
+  height: 100px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.initials {
+  color:white;
+  padding-top: 22px;
+  padding-left: 14px;
+  font-size: 45px;
+}
+
+.pictureText {
+  vertical-align: text-bottom;
+}
+
+ img {
+  height: 20em;
+  width: 20em;
+  /*float: right;*/
+}
+
+body {
+  background-image: url('IMG1.jpg');
+}
+
 .mainView {
   border: solid thin yellow;
 }
@@ -38,8 +69,35 @@ footer {
   border: solid thin orange;
 }
 
+table, tr, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+  width: 440px;
+}
+
+.team {
+  text-align: left;
+}
+
+/*table {
+  width: 100%;
+}
+
+td {
+  width: 20%;
+}*/
+
+.newspaper {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    column-count: 2;
+
+}
 
 
+.newsTitle {
+  text-align: center;
+}
 
 
 
