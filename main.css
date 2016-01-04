@@ -23,7 +23,7 @@ li {
   font-size: 45px;
   font-variant: small-caps;
   font-family: comic_sans;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 .pictureText {
@@ -105,10 +105,10 @@ td {
 
 div#d1 {
   background-color: red;
-  margin: 15px;
-  width: 250px;
-  height: 100px;
-  border: 5px solid #000000;
+  margin: 35px;
+  width: 165px;
+  height: 40px;
+  border: 3px solid #000000;
   color: black;
   font-weight: bold;
   text-align: center;
@@ -117,12 +117,12 @@ div#d1 {
 div#d2 {
   background-color: green;
   margin: 15px;
-  width: 250px;
-  height: 100px;
+  width: 350px;
+  height: 75px;
   border: 5px solid #000000;
   color: black;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 
 div#d3 {
@@ -133,7 +133,7 @@ div#d3 {
   border: 5px solid #000000;
   color: black;
   font-weight: bold;
-  text-align: center;
+  text-align: right;
 }
 
 div#d4 {
