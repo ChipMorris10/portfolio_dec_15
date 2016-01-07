@@ -221,9 +221,74 @@ div#floatDiv3 {
   float: left;
 }
 
+div#boxModel1 {
+  width: 250px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
 
+div#boxModel2 {
+  width: 250px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid black;
+  margin: 10px;
+  padding: 10px;
+}
 
+div#dd1 {
+  position: absolute;
+  left: 50px;
+  top:  3250px;
+  background-color: red;
+  width: 165px;
+  height: 40px;
+  border: 3px solid #000000;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
 
+div#dd2 {
+  position: absolute;
+  background-color: green;
+  left: 75px;
+  top: 3275px;
+  width: 165px;
+  height: 40px;
+  border: 3px solid #000000;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+div#dd3 {
+  position: absolute;
+  background-color: purple;
+  top: 3300px;
+  left: 100px;
+  width: 165px;
+  height: 40px;
+  border: 3px solid #000000;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+div#dd4 {
+  position: absolute;
+  background-color: yellow;
+  top: 3325px;
+  left: 125px;
+  width: 165px;
+  height: 40px;
+  border: 3px solid #000000;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
 
 
 
