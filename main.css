@@ -186,7 +186,7 @@ div#d6 p {
 
 div#floatDiv1 {
   background-color: red;
-  margin: 35px;
+  margin: 10px;
   width: 165px;
   height: 40px;
   border: 3px solid #000000;
@@ -198,7 +198,7 @@ div#floatDiv1 {
 
 div#floatDiv2 {
   background-color: blue;
-  margin: 35px;
+  margin: 10px;
   width: 165px;
   height: 40px;
   border: 3px solid #000000;
@@ -210,7 +210,7 @@ div#floatDiv2 {
 
 div#floatDiv3 {
   background-color: green;
-  margin: 35px;
+  margin: 10px;
   width: 165px;
   height: 40px;
   border: 3px solid #000000;
@@ -226,6 +226,7 @@ div#boxModel1 {
   background-color: purple;
   border: 1px solid black;
   clear: both;
+  margin-top: 30px;
 }
 
 div#boxModel2 {
@@ -241,7 +242,7 @@ div#boxModel2 {
 div#dd1 {
   position: absolute;
   left: 50px;
-  top:  3250px;
+  /*top:  3250px;*/
   background-color: red;
   width: 165px;
   height: 40px;
@@ -255,20 +256,19 @@ div#dd2 {
   position: absolute;
   background-color: green;
   left: 75px;
-  top: 3275px;
+  /*top: 3275px;*/
   width: 165px;
   height: 40px;
   border: 2px solid  #000000;
   color: black;
   font-weight: bold;
   text-align: center;
-
 }
 
 div#dd3 {
   position: absolute;
   background-color: purple;
-  top: 3300px;
+  /*top: 3300px;*/
   left: 100px;
   width: 165px;
   height: 40px;
@@ -281,7 +281,7 @@ div#dd3 {
 div#dd4 {
   position: absolute;
   background-color: yellow;
-  top: 3325px;
+  /*top: 3325px;*/
   left: 125px;
   width: 165px;
   height: 40px;
@@ -289,12 +289,76 @@ div#dd4 {
   color: black;
   font-weight: bold;
   text-align: center;
-  clear: both;
+  /*clear: both;*/
 }
 
+div#z1 {
+  position: absolute;
+  left: 50px;
+  top:  3450px;
+  background-color: red;
+  width: 165px;
+  height: 40px;
+  border: 3px double #000000;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  z-index: 0;
+}
+
+div#z2 {
+  position: absolute;
+  background-color: green;
+  left: 75px;
+  top: 3475px;
+  width: 165px;
+  height: 40px;
+  border: 2px solid  #000000;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  z-index: 3;
+}
+
+div#z3 {
+  position: absolute;
+  background-color: purple;
+  top: 3500px;
+  left: 100px;
+  width: 165px;
+  height: 40px;
+  border: 3px dotted #000000;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  z-index: 2;
+}
+
+div#z4 {
+  position: absolute;
+  background-color: yellow;
+  top: 3525px;
+  left: 125px;
+  width: 165px;
+  height: 40px;
+  border: 3px dashed #000000;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+  clear: left;
+}
+
+div#overFlow {
+  overflow: scroll;
+  background-color: grey;
+  color: white;
+  height: 60px;
+  width: 250px;
+  top: 3600;
 
 
-
+}
 
 
 
