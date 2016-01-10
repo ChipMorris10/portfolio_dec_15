@@ -242,7 +242,7 @@ div#boxModel2 {
 div#dd1 {
   position: absolute;
   left: 50px;
-  /*top:  3250px;*/
+  top:  160px;
   background-color: red;
   width: 165px;
   height: 40px;
@@ -256,7 +256,7 @@ div#dd2 {
   position: absolute;
   background-color: green;
   left: 75px;
-  /*top: 3275px;*/
+  top: 175px;
   width: 165px;
   height: 40px;
   border: 2px solid  #000000;
@@ -268,7 +268,7 @@ div#dd2 {
 div#dd3 {
   position: absolute;
   background-color: purple;
-  /*top: 3300px;*/
+  top: 190px;
   left: 100px;
   width: 165px;
   height: 40px;
@@ -281,7 +281,7 @@ div#dd3 {
 div#dd4 {
   position: absolute;
   background-color: yellow;
-  /*top: 3325px;*/
+  top: 205px;
   left: 125px;
   width: 165px;
   height: 40px;
